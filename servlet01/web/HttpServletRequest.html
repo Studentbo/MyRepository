@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取请求中的请求参数</title>
+</head>
+<body>
+<form action="http://localhost/httpServletRequest" method="post">
+    <label>账号</label>
+    <input type="text"  placeholder="请设置用户名"name="username" /><br />
+
+    <label>密码</label>
+    <input type="password" placeholder="请输入密码"name="password"  /><br />
+
+    <label>性别</label>
+    <input type="radio"  name="sex" value="男"/>男
+    <input type="radio"  name="sex"  value="女"/>女<br />
+    <label>爱好</label>
+    <input type="checkbox"  name="hobby"  value="羽毛球"/>羽毛球
+    <input type="checkbox"  name="hobby"  value="乒乓球"/>乒乓球
+    <input type="checkbox"  name="hobby"  value="篮球"/>篮球
+    <input type="checkbox"  name="hobby"  value="排球"/>排球<br />
+
+    <label>部门</label>
+    <select name="dept"/>
+    <option value ="销售部">销售部</option>
+    <option value ="技术部">技术部</option>
+    <option value ="人事部">人事部</option>
+    <option value ="财务部">财务部</option>
+    </select><br />
+
+    <input type="submit" value="登录" /><br />
+</form>
+</body>
+</html>
