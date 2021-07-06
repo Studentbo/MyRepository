@@ -1,5 +1,6 @@
 public class Test{
 	public static void main(String[] args){
 		System.out.println("我需要输出一句话");
+		System.out.println("我还需要输出一句话，看差异在哪里！");
 	}
 }
